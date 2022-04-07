@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  font-family: Roboto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 1%;
+  background-color: #f7e0df;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.card-description.css-1qhb1kr-TimelineContentDetailsWrapper.emk90bu4 {
+  align-items: flex-start;
+}
