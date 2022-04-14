@@ -121,15 +121,15 @@ export default function Timeline() {
                     </ul>
                 </div>
                 <div className="chrono-icons">
-                    <img src="birthday.svg" alt="image2" />
-                    <img src="college.svg" alt="academics" />
-                    <img src="college.svg" alt="academics" />
-                    <img src="college.svg" alt="academics" />
-                    <img src="college.svg" alt="academics" />
-                    <img src="college.svg" alt="academics" />
-                    <img src="college.svg" alt="academics" />
-                    <img src="college.svg" alt="academics" />
-                    <img src="office.svg" alt="work" />
+                    <img src="icons/birthday.svg" alt="image2" />
+                    <img src="icons/college.svg" alt="academics" />
+                    <img src="icons/college.svg" alt="academics" />
+                    <img src="icons/college.svg" alt="academics" />
+                    <img src="icons/college.svg" alt="academics" />
+                    <img src="icons/college.svg" alt="academics" />
+                    <img src="icons/college.svg" alt="academics" />
+                    <img src="icons/college.svg" alt="academics" />
+                    <img src="icons/office.svg" alt="work" />
                 </div>
             </Chrono>
         </div>
