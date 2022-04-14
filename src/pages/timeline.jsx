@@ -57,6 +57,7 @@ export default function Timeline() {
                                 <li>POC - ML based classifier to predict commonly found type of mosquito in a region and suggest required vaccinations for possible diseases.</li>
                             </ul>
                         </li>
+                        <li>Hosted first workshop on Deep learning for FOSSCell CET</li>
                     </ul>
                 </div>
                 <div>
@@ -95,7 +96,7 @@ export default function Timeline() {
                         </li>
                         <li>Completed several Online courses in coursera
                             <ul>
-                                <li><LineWithIcon text='Machine learining | Stanford University' document='docs/ML.pdf' /></li>
+                                <li><LineWithIcon text='Machine learning | Stanford University' document='docs/ML.pdf' /></li>
                                 <li><LineWithIcon text='Neural networks and deep learning | deeplearning.ai' document='docs/NeuralNetworkDeepLearning.pdf' /></li>
                                 <li><LineWithIcon text='Improving deep neural networks | deeplearning.ai' document='docs/NeuralNetworkTuning.pdf' /></li>
                                 <li><LineWithIcon text='Structuring machine learning projects | deeplearning.ai' document='docs/StructuringMLProjects.pdf' /></li>

@@ -2,7 +2,6 @@ import React from "react";
 import GitHubIcon from '@mui/icons-material/GitHub';
 import ArticleIcon from '@mui/icons-material/Article';
 
-
 const inlineIconCss = {
     display: 'flex',
     alignItems: 'center',
@@ -18,10 +17,7 @@ const iconStyle = {
     fontSize: 17
 }
 export default function LineWithIcon(props) {
-    console.log(props)
     const { text, github, document } = props
-    // console.log("github", github)
-    // console.log("document", document)
     if (github === undefined && document === undefined) {
         return (
             <div style={inlineIconCss}>
