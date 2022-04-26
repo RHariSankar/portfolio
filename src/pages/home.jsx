@@ -1,4 +1,4 @@
-import { Container, Divider, Grid } from '@mui/material';
+import { Container, Divider, Grid, Tooltip } from '@mui/material';
 import Paper from '@mui/material/Paper';
 import { createTheme, ThemeProvider, styled } from '@mui/material/styles';
 import Typography from '@mui/material/Typography';
@@ -23,8 +23,9 @@ const imageStyle = {
   borderRadius: "10px"
 }
 
-const iconStyle={
-  margin:"3vw"
+const iconStyle = {
+  marginLeft: "3vw",
+  marginRight: "3vw"
 }
 
 
@@ -70,10 +71,10 @@ export default function Home() {
                 </Typist>
               </Grid>
               <Grid item>
-                <a href='https://github.com/RHariSankar' target="_blank"><GitHub style={iconStyle}/></a>
-                <a href='https://www.linkedin.com/in/harisankar-r-871171167/' target="_blank"><LinkedIn style={iconStyle}/></a>
-                <a href='https://www.instagram.com/_hari.sankar_/' target="_blank"><Instagram style={iconStyle}/></a>
-                <a href='docs/Resume.pdf ' target="_blank"><AttachFileRoundedIcon style={iconStyle}/></a>
+                <Tooltip title="GitHub"><a href='https://github.com/RHariSankar' target="_blank"><GitHub style={iconStyle} /></a></Tooltip>
+                <Tooltip title="LinkedIn"><a href='https://www.linkedin.com/in/harisankar-r-871171167/' target="_blank"><LinkedIn style={iconStyle} /></a></Tooltip>
+                <Tooltip title="Instagram"><a href='https://www.instagram.com/_hari.sankar_/' target="_blank"><Instagram style={iconStyle} /></a></Tooltip>
+                <Tooltip title="Resume"><a href='docs/Resume.pdf ' target="_blank"><AttachFileRoundedIcon style={iconStyle} /></a></Tooltip>
               </Grid>
             </Grid>
           </Grid>
