@@ -23,6 +23,11 @@ const imageStyle = {
   borderRadius: "10px"
 }
 
+const iconStyle={
+  margin:"3vw"
+}
+
+
 export const darkTheme = createTheme({
   typography: {
     fontFamily: [
@@ -65,10 +70,10 @@ export default function Home() {
                 </Typist>
               </Grid>
               <Grid item>
-                <GitHub></GitHub>
-                <LinkedIn></LinkedIn>
-                <Instagram></Instagram>
-                <AttachFileRoundedIcon></AttachFileRoundedIcon>
+                <a href='https://github.com/RHariSankar' target="_blank"><GitHub style={iconStyle}/></a>
+                <a href='https://www.linkedin.com/in/harisankar-r-871171167/' target="_blank"><LinkedIn style={iconStyle}/></a>
+                <a href='https://www.instagram.com/_hari.sankar_/' target="_blank"><Instagram style={iconStyle}/></a>
+                <a href='docs/Resume.pdf ' target="_blank"><AttachFileRoundedIcon style={iconStyle}/></a>
               </Grid>
             </Grid>
           </Grid>
